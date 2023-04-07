@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
-# import requests
+import requests
 # from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import pymongo
@@ -12,12 +12,12 @@ application = Flask(__name__) # initializing a flask app
 app=application
 
 @app.route('/',methods=['GET'])  # route to display the home page
-@cross_origin()
+#@cross_origin()
 def homePage():
     return render_template("index.html")
 
 @app.route('/review',methods=['POST','GET']) # route to show the review comments in a web UI
-@cross_origin()
+#@cross_origin()
 
 def index():
     if request.method == 'POST':
@@ -53,18 +53,23 @@ def index():
 
         df=pd.DataFrame(data, columns=['Urls' ,'Thumbs' ,'Title' ,'Views' ,'Time'])
 
-        my_dic = df.to_dict()
+        #my_dic = df.to_dict()
 
         mydic = "youtube_data/"
         if not os.path.exists(mydic):
             os.makedirs(mydic)
         fy = df.to_csv()
         filepath = os.path.join(mydic, f'{channel_name}.csv' )
-        with open (filepath , 'w') as f:
+        with open (filepath , 'w',encoding='utf-8') as f:
             f.write(fy)
 
-        mydata=[my_dic,channel_name]
-        return render_template("results.html",mydict1=mydata)
+        reviews = []
+        for i in range (int(limit)):
+            mydict = {"channelname": channel_name , "Urls": data[i][0] ,"Thumbs" : data[i][1], "Title": data[i][2], "Views": data[i][3],"Time": data[i][4]}
+            reviews.append(mydict)
+
+        #mydata=[reviews,channel_name]
+        return render_template("results.html",reviews=reviews)
 
         client = pymongo.MongoClient("mongodb+srv://arjunvermam:2758@cluster0.uqflnth.mongodb.net/?retryWrites=true&w=majority")
         db = client['image_scrap']

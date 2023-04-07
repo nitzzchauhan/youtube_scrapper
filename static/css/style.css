@@ -1,17 +1,17 @@
 body {
-    background-color: #adb1b4;
+    background-color: #eeafaf;
   }
   body * {
     box-sizing: border-box;
   }
   
   .header {
-    background-color: #580776;
-    color: white;
+    background-color: #FF0000;
+    color: #282828;
     font-size: 2.5em;
     padding: 1rem;
     /* font-style: italic; */
-    font-family: cursive;
+    font-family: Arial;
     text-align: center;
     text-transform: uppercase;
   }
@@ -36,7 +36,7 @@ body {
     width: 100%;
   }
   table td, table th {
-    color: #2b686e;
+    color: #282828;
     padding: 10px;
   }
   table td {
@@ -49,14 +49,14 @@ body {
     text-align: left;
   }
   table th {
-    background-color: #daeff1;
+    background-color: #FF0000;
     font-weight: 300;
   }
   table tr:nth-child(2n) {
     background-color: white;
   }
   table tr:nth-child(2n+1) {
-    background-color: #edf7f8;
+    background-color: #FF0000;
   }
   
   @media screen and (max-width: 700px) {
