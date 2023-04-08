@@ -13,10 +13,8 @@ There are so many features of this project are:
 
 All the information are stored in mongodb as well as CSV file in the local system.
 
-![search](https://user-images.githubusercontent.com/124049417/230721825-5c44975b-a2cd-41e0-a5bf-bcf304d8a976.png)
+![result2](https://user-images.githubusercontent.com/124049417/230733451-b7709569-70c4-46f8-ac82-71a0f24c12f3.png)
 
-
-![search2](https://user-images.githubusercontent.com/124049417/230721800-ddac8d7b-c0d1-4d7a-87a3-6cc857f06f8b.png)
 
 ![mongo](https://user-images.githubusercontent.com/124049417/230721841-87a255f2-1e2e-4da6-9e39-f00f8ba9018b.png)
 
