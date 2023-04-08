@@ -1,0 +1,29 @@
+2023-04-08 12:58:43,398, werkzeug,  * Debugger is active!
+2023-04-08 12:58:43,414, werkzeug,  * Debugger PIN: 116-497-420
+2023-04-08 12:58:50,066, root, Checking csv file
+2023-04-08 12:58:50,070, root, Saving data in mongoDB
+2023-04-08 12:58:50,551, werkzeug, 127.0.0.1 - - [08/Apr/2023 12:58:50] "POST /review HTTP/1.1" 200 -
+2023-04-08 12:58:50,624, werkzeug, 127.0.0.1 - - [08/Apr/2023 12:58:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-04-08 12:58:50,736, werkzeug, 127.0.0.1 - - [08/Apr/2023 12:58:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-04-08 13:00:39,465, werkzeug,  * Detected change in 'c:\\Users\\Arjun\\youtube scrapping\\application.py', reloading
+2023-04-08 13:00:43,941, werkzeug,  * Debugger is active!
+2023-04-08 13:00:43,941, werkzeug,  * Debugger PIN: 116-497-420
+2023-04-08 13:00:51,339, root, Name od the channel = lail
+2023-04-08 13:00:51,745, root, Checking csv file
+2023-04-08 13:00:51,751, root, Saving data in mongoDB
+2023-04-08 13:00:52,284, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:00:52] "POST /review HTTP/1.1" 200 -
+2023-04-08 13:00:52,349, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:00:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-04-08 13:00:52,476, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:00:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-04-08 13:05:06,362, werkzeug, [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-08 13:05:06,362, werkzeug, [33mPress CTRL+C to quit[0m
+2023-04-08 13:05:06,369, werkzeug,  * Restarting with stat
+2023-04-08 13:05:09,912, werkzeug,  * Debugger is active!
+2023-04-08 13:05:09,922, werkzeug,  * Debugger PIN: 116-497-420
+2023-04-08 13:05:35,898, root, Name od the channel = lailaa
+2023-04-08 13:05:36,307, root, Checking csv file
+2023-04-08 13:05:36,312, root, Saving data in mongoDB
+2023-04-08 13:05:36,903, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:05:36] "POST /review HTTP/1.1" 200 -
+2023-04-08 13:05:36,958, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:05:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-04-08 13:05:36,971, werkzeug, 127.0.0.1 - - [08/Apr/2023 13:05:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-04-08 13:05:48,893, werkzeug,  * Detected change in 'c:\\Users\\Arjun\\youtube scrapping\\application.py', reloading
