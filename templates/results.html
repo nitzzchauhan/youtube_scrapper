@@ -30,9 +30,9 @@
       </tr>
       {% for data in reviews %}
       <tr class="{{ 'odd' if loop.index is odd else 'even' }}">
-          <td><a href="https://www.youtube.com/@{{data['channelname']}}">{{data['channelname'] }}</td>
-          <td><a href="{{ data['Urls'] }}">Video{{ loop.index}}</a></td>
-          <td><a href="{{ data['Thumbs'] }}">Thumbnail{{ loop.index}}</a></td>
+          <td><a href="https://www.youtube.com/@{{data['channelname']}}" target="_blank">{{data['channelname'] }}</td>
+          <td><a href="{{ data['Urls'] }}" target="_blank">Video{{ loop.index}}</a></td>
+          <td><a href="{{ data['Thumbs'] }}" target="_blank">Thumbnail{{ loop.index}}</a></td>
           <td>{{ data['Title'] }}</td>
           <td>{{ data['Views'] }}</td>
           <td>{{ data['Time'] }}</td>
